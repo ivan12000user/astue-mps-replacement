@@ -1,0 +1,30 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.0.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstueMpsReplacement", "AstueMpsReplacement.csproj", "{E9AB28A8-B336-472A-B12A-5A7F04682C27}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AstueMpsOpcDaServer", "opcda_native\AstueMpsOpcDaServer.vcxproj", "{94B9FC2B-018E-4EAC-B3D0-56D026F0E711}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9AB28A8-B336-472A-B12A-5A7F04682C27}.Debug|x86.ActiveCfg = Debug|x86
+		{E9AB28A8-B336-472A-B12A-5A7F04682C27}.Debug|x86.Build.0 = Debug|x86
+		{E9AB28A8-B336-472A-B12A-5A7F04682C27}.Release|x86.ActiveCfg = Release|x86
+		{E9AB28A8-B336-472A-B12A-5A7F04682C27}.Release|x86.Build.0 = Release|x86
+		{94B9FC2B-018E-4EAC-B3D0-56D026F0E711}.Debug|x86.ActiveCfg = Debug|Win32
+		{94B9FC2B-018E-4EAC-B3D0-56D026F0E711}.Debug|x86.Build.0 = Debug|Win32
+		{94B9FC2B-018E-4EAC-B3D0-56D026F0E711}.Release|x86.ActiveCfg = Release|Win32
+		{94B9FC2B-018E-4EAC-B3D0-56D026F0E711}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72B042AF-BBFF-4FDA-9706-A306357E80A8}
+	EndGlobalSection
+EndGlobal
