@@ -1,6 +1,6 @@
-# ASTUE MPS Replacement
+# ASTUE OPC DA Server
 
-Win32/x86 replacement prototype for a legacy multi-protocol meter polling server used with OPC DA SCADA clients. The current field-tested baseline is **v0.3.2.4**.
+Win32/x86 **OPC DA 2.05a server and meter polling application** for Windows 7 SP1 and newer Windows systems. It polls supported electricity meters over serial / Moxa RealCOM links and publishes cached values to OPC DA clients. The current field-tested baseline is **v0.3.2.4**.
 
 ## Current scope
 
@@ -58,7 +58,7 @@ Required for the native Win7 target: **MSVC v143 + ATL v143**. The build scripts
 
 ## Safety
 
-Do not poll the same physical serial line from two masters simultaneously. Before testing a line, stop/disable that line in the legacy polling application or otherwise guarantee exclusive COM access.
+Do not poll the same physical serial line from two masters simultaneously. Before testing a line, stop/disable that line in the existing polling application or otherwise guarantee exclusive COM access.
 
 ## Roadmap
 
@@ -68,4 +68,10 @@ Do not poll the same physical serial line from two masters simultaneously. Befor
 4. extend SET4 coverage;
 5. direct TCP transport for terminal servers where useful.
 
-No license is declared yet; the repository is currently intended for private development/testing.
+## Independence and trademarks
+
+This is an independent project. Product and model names are used only to identify compatible equipment or protocols. No affiliation with or endorsement by the respective manufacturers is implied.
+
+## License
+
+No open-source license has been declared yet. The source is publicly visible, but reuse, modification and redistribution rights should be clarified by adding a license before encouraging third-party reuse.
