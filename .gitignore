@@ -1,0 +1,49 @@
+# Visual Studio / MSBuild
+.vs/
+bin/
+obj/
+x64/
+x86/
+Debug/
+Release/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+*.pdb
+*.ipch
+
+# Build / package output
+dist/
+packages/
+*.nupkg
+
+# Runtime / production data
+*.astue
+*.mpp
+*.mbp
+opc_snapshot.tsv
+runtime_project.path
+logs/
+log/
+dumps/
+*.dmp
+*.log
+
+# Local inventories / diagnostics
+sample/current_inventory.csv
+*_inventory.csv
+*_baseline.csv
+
+# Secrets / credentials
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+
+# OS/editor
+Thumbs.db
+Desktop.ini
+.DS_Store
